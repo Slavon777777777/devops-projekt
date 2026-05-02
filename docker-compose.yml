@@ -6,3 +6,9 @@ services:
     ports:
       - "8080:80"
     container_name: projekt
+
+  whoami:
+    image: containous/whoami
+    ports:
+      - "8081:80"
+    container_name: whoami
